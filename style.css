@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(3, 46, 63, 0.842);
+}
+#display {
+  color: white;
+  font-size: 30px;
+  top: 10px;
+  border-bottom: thin solid;
+  padding-bottom: 20px;
+}
+
+#date {
+  color: white;
+  font-size: 1.3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.2em;
+}
+.container {
+  padding-top: 6em;
+  text-align: center;
+}
+p,
+#quote_result {
+  max-width: 30em;
+  color: white;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times,
+    serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 30px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+
+#quote_btn {
+  background-color: rgb(15, 66, 90);
+  color: white;
+  border: thin solid white;
+  height: 40px;
+  width: 200px;
+  border-radius: 2px;
+}
+@media screen and (max-device-width: 800px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  p {
+    font-size: 1em;
+  }
+}
